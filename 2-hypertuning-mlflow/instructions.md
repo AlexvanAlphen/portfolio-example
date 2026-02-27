@@ -2,17 +2,17 @@ Last week, you have been experimenting with the interaction of hyperparameters.
 You made visualisations to show how they impacted each other.
 This week, you will extend the number of hyperparameters and architectures you can experiment with.
 
-# 1. Study more layers to add
+# 1. Study more layers to add (completed)
 Study the pytorch documentation for:
 - Dropout https://pytorch.org/docs/stable/generated/torch.nn.Dropout.html
 - normalization layers https://pytorch.org/docs/stable/nn.html#normalization-layers
 
-# 2. Add dropout and normalization layers to your model
+# 2. Add dropout and normalization layers to your model (completed)
 Experiment with adding dropout and normalization layers to your model. Some rough guidelines where to add them relative to Linear or Conv2d layers:
 - Dropout: after Linear or Conv2d layers. Often added after the last Linear layer *before* the output layer, but could occur more often.
 - Normalization layers: right after (blocks of) Linear or Conv2d layers, but before activation functions.
 
-# 3. Use logging
+# 3. Use logging (completed)
 - set up logging with MLflow, and make sure the hyperparameters you are using are logged.
 - get comfortable with using MLflow to visualize your results, it has a pretty powerful dashboard.
 
