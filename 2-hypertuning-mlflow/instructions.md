@@ -16,7 +16,7 @@ Experiment with adding dropout and normalization layers to your model. Some roug
 - set up logging with MLflow, and make sure the hyperparameters you are using are logged.
 - get comfortable with using MLflow to visualize your results, it has a pretty powerful dashboard.
 
-# 4. Adding convolutional and pooling layers
+# 4. Adding convolutional and pooling layers (completed)
 This lesson, we have added some new types of layers: convolutional and pooling layers.
 Experiment with adding these new layers.
 
