@@ -5,3 +5,6 @@ logs/
 .lycheecache
 venv_tb/
 4-hypertuning-ray/data
+4-hypertuning-ray/cnn_models 
+4-hypertuning-ray/gestures
+4-hypertuning-ray/mlruns
