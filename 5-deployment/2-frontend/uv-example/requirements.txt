@@ -1,0 +1,7 @@
+loguru
+# i added some more requirements, just to show how fast uv is
+requests
+numpy
+scipy
+matplotlib
+seaborn

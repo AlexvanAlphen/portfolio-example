@@ -1,0 +1,27 @@
+version: "3.9"
+
+services:
+
+  ingest:
+    build: ./ingest
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+
+  preprocess:
+    build: ./preprocess
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    depends_on:
+      - ingest
+
+  model:
+    build: ./model
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+    ports:
+      - "8501:8501"
+    depends_on:
+      - preprocess

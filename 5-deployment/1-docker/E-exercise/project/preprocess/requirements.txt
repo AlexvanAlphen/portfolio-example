@@ -1,0 +1,9 @@
+requirements.txt
+pandas
+pyarrow
+matplotlib
+seaborn
+streamlit
+loguru
+pillow
+numpy
