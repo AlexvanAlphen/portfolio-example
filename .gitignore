@@ -4,6 +4,7 @@ gestures/
 logs/
 .lycheecache
 venv_tb/
+mads_env
 4-hypertuning-ray/data
 4-hypertuning-ray/cnn_models 
 4-hypertuning-ray/gestures
